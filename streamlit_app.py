@@ -44,7 +44,7 @@ try:
   else:
     #these code call the created function
     back_from_function = get_fruityvice_data(fruit_choice)
-    streamlit.dataframe(back_from_junction)
+    streamlit.dataframe(back_from_function)
     
     #the following code not a function
     #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
