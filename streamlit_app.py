@@ -43,7 +43,7 @@ try:
      streamlit.error("Please select a fruit to get information.")
   else:
     #these code call the created function
-    back_from_function = get_fruity_vice_data(fruit_choice)
+    back_from_function = get_fruityvice_data(fruit_choice)
     streamlit.dataframe(back_from_junction)
     
     #the following code not a function
